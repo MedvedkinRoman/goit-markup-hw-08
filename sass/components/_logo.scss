@@ -7,8 +7,10 @@
     letter-spacing: 0.03em;
     color: #000;
     margin-right: 93px; 
+
+    &__web {
+        color: #2196F3;
+    }
 }
 
-.logo__web {
-    color: #2196F3;
-}
+

@@ -2,60 +2,61 @@
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
-}
 
-.footer__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
 
-  .footer-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-    align-items: center;
+    &-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;   
 
-}   
-
-  .footer-box__logo {
-    display: flex;
-    flex-direction: column;
-    display: block;
-    font-family: var(--secondary-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #fff;
-    margin-bottom: 20px;
+        &__logo {
+            display: flex;
+            flex-direction: column;
+            display: block;
+            font-family: var(--secondary-font);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.19;
+            letter-spacing: 0.03em;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+    }
 }  
 
-.address__item {
-    margin-bottom: 9px;
-    text-align: center;
-}
+.address {
+    &__item {
+        margin-bottom: 9px;
+        text-align: center;
+    }
 
-.address__map {
-    font-family: var(--main-font);
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
+    &__map {
+        font-family: var(--main-font);
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
 
-.address__link {
-    font-family: var(--main-font);
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    text-align: center;
+    &__link {
+        font-family: var(--main-font);
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        text-align: center;
+    }
 }
 
 .footer-social__container {
