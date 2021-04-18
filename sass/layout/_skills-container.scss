@@ -1,0 +1,130 @@
+.skills__container {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin: 0 auto;
+}
+
+.skills__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background-color: #F5F4FA;
+    min-width: 100%;
+}
+
+.skills__set {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+  
+  .skills__list {
+    justify-content: center;
+    margin: 15px;
+}
+
+.skills__title {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #212121;
+    text-align: center;
+}
+
+.skills__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom: 30px;
+}    
+
+@media screen and (min-width: 768px) {
+    
+    .skills__list {
+      flex-basis: calc((100% / 2 - 30px));
+    }
+
+    .skills__title {
+        text-align: start;
+    }
+
+    .section {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .skills {
+        display: flex;
+        justify-content: center;
+    }    
+
+    .skills__set {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .skills__list {
+        flex-basis: calc((100% / 4 - 30px));
+      }
+   
+    .skills__box {
+        width: 270px;
+        height: 120px;
+        margin-bottom: 30px;
+      }
+}    
+
+
+/*
+.skills__container {
+    display: flex;
+}
+
+.skills__set {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__list:not(:last-child) {
+    margin-right: 30px;
+}
+
+.skills__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.skills__title {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #212121;
+}
+
+.skills__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}  */
